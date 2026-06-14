@@ -30,6 +30,16 @@ const SOCIALS = [
       </svg>
     ),
   },
+  {
+    label: 'Portfolio',
+    href:  'https://ezra-dev-psi.vercel.app',
+    icon:  (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Contact() {
@@ -50,13 +60,20 @@ export default function Contact() {
           {/* Left */}
           <div>
             <h2
-              className="font-display font-bold text-2xl md:text-3xl leading-tight mb-5"
+              className="font-display font-bold text-4xl md:text-5xl leading-tight mb-5"
               style={{ color: '#E2E8F0' }}
             >
-              email:ezragyamerah17@gmail.com, WhatsApp:0537372876, Telegram: Hughes, Phone:0537372876
+              Let&apos;s build
+              <br />
+              <span style={{ color: '#8B5CF6' }}>something.</span>
             </h2>
-            <p className="text-sm leading-relaxed mb-8" style={{ color: '#64748B' }}>
+            <p className="text-sm leading-relaxed mb-4" style={{ color: '#64748B' }}>
               Feel free to reach out if you have a project in mind, need technical consultation, or just want to connect. I welcome all kinds of messages and look forward to collaborating!
+            </p>
+            <p className="text-sm leading-relaxed mb-8" style={{ color: '#E2E8F0' }}>
+              📱 WhatsApp / Phone: 0537372876
+              <br />
+              ✈️  Telegram: Hughes
             </p>
 
             {/* Socials */}

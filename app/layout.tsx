@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Ezra Appiah Gyamerah — Software Engineer',
     description: 'I build Mobile applications and web apps',
+    url: 'https://ezra-dev-psi.vercel.app',
     type: 'website',
   },
 };
