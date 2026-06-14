@@ -2,6 +2,16 @@
 
 const PROJECTS = [
   {
+    name:    'Dev Portfolio',
+    tagline: 'Personal portfolio website',
+    desc:    'My personal developer portfolio showcasing my projects, skills, and experience. Built with a dark techy aesthetic featuring animated code tokens, a terminal-style about card, and smooth scroll navigation.',
+    stack:   ['Next.js', 'TypeScript', 'TailwindCSS'],
+    accent:  '#2DD4BF',
+    glyph:   '◇',
+    github:  'https://github.com/Ezra-creator',
+    demo:    'https://ezra-dev-psi.vercel.app',
+  },
+  {
     name:    'Soul Restaurant',
     tagline: 'Restaurant website',
     desc:    'A beautiful and responsive restaurant website to showcase menus, reservations, and location details.',
@@ -72,7 +82,7 @@ export default function Projects() {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 gap-5">
           {PROJECTS.map((p) => (
             <div key={p.name} className="project-card flex flex-col">
               {/* Top band */}
